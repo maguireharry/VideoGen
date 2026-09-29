@@ -1,53 +1,60 @@
 # VideoGen 🎬
 
-A multi-project animated video generation hub powered by **Remotion**, **Three.js**, **Blender 5.0**, **Google Gemini 3.1 Flash Image ("Nano Banana 2")**, procedural audio synthesis, and FFmpeg.
+A multi-project animated video generation hub powered by **Remotion**, **Three.js**, **Blender 5.0**, **Google Gemini ("Nano Banana 2")**, procedural DSP audio synthesis, and FFmpeg.
 
-This repository houses multiple self-contained, high-production animation and cinema projects.
+This repository houses multiple self-contained, high-production animation and cinema projects across diverse visual styles: 35mm Indian cinematic realism, Pixar 3D CGI animation, Makoto Shinkai / Studio Ghibli anime, Three.js WebGL solarpunk sci-fi, and stylized comedy.
 
 ---
 
 ## 📽️ Projects Directory
 
-| Project Folder | Title & Description | Tech Stack | Duration | Framerate / Cuts | Total Frames | Status |
-|---|---|---|---|---|---|---|
-| [`cosmic_odyssey_03/`](./cosmic_odyssey_03/) | **The Seed of Aurora (Cosmic Odyssey)**: A 1-minute cinematic sci-fi odyssey tracking an ancient celestial seed through the deep void, across a kaleidoscopic nebula, plunging through atmospheric re-entry onto a desolate alien world, and blooming into an eternal solarpunk garden of stars. | Remotion + Three.js + Blender + Nano Banana 2 + WebGL | 60.0s | 30.0 FPS | 1,800 Frames | ✅ Complete |
-| [`war_action_01/`](./war_action_01/) | **Brothers in Arms — No One Left Behind**: A hard-hitting, impactful cinematic war action film following a desperate combat rescue through artillery craters, smoke screens, suppressive tank armor, and A-10 close air support to extract a wounded brother onto a MEDEVAC Black Hawk into the sunset. | Nano Banana 2 + Dynamic Programming + FFmpeg | 30.0s | **4 FPS (Continuous Cut)**<br>+ 20 FPS (Smooth / Full) | 120 Continuous Frames<br>(from 600 AI Frames) | ✅ Complete |
-| [`nano_banana_comedy_01/`](./nano_banana_comedy_01/) | **The Misadventures of Nano Banana 2.0**: A slapstick comedy animated short following a sentient banana escaping a kitchen fruit bowl, dodging a smoothie blender, outsmarting a hungry chef monkey, strapping to a bottle rocket, and slipping on its own peel. | Nano Banana 2 + Procedural SFX + FFmpeg | 30.0s | 20 FPS | 600 Frames | ✅ Complete |
+| # | Project Folder | Title & Description | Visual Style | Tech Stack | Duration | Output | Status |
+|---|---|---|---|---|---|---|---|
+| **04** | [`shivamogga_kannada_drama_04/`](./shivamogga_kannada_drama_04/) | **ಮಲೆನಾಡ ಹಾದಿ (The Malnad Path)**: A rich emotional Kannada drama set across the Western Ghats of Shivamogga — misty Tunga bridge at dawn, heritage Malnad courtyard, Rangamandira theatrical tension, Jog Falls confrontation, and sacred banyan temple reunion. | **Cinematic Realism (35mm Indian Cinema)** | Gemini Visuals + Indian Classical DSP Audio (Bansuri, Tanpura, Tabla) + FFmpeg | 25.0s | MP4 + GIF | ✅ Complete |
+| **05** | [`cute_puppy_spotlight_05/`](./cute_puppy_spotlight_05/) | **Cute Puppy Spotlight**: Heartwarming 3D animation spotlight following a curious golden pup from wicker basket yawns and rainbow bubbles to garden butterfly sprints, autumn leaf slides, and cozy fireplace lullabies. | **Pixar / Disney 3D CGI Animation** | Gemini Visuals + Orchestral Pizzicato & Marimba DSP Audio + FFmpeg | 25.0s | MP4 + GIF | ✅ Complete |
+| **06** | [`social_media_screenless_06/`](./social_media_screenless_06/) | **Disconnect to Reconnect (デスコネクト リコネクト)**: An evocative film portraying the suffocating doomscroll cycle and anxiety of screen addiction, followed by the deep liberation of powering off, walking in dew-kissed cedar forests, real friendship, and twilight ocean breezes. | **Makoto Shinkai & Ghibli Anime** | Gemini Visuals + Neo-Classical Piano & Orchestral DSP Audio + FFmpeg | 25.0s | MP4 + GIF | ✅ Complete |
+| **03** | [`cosmic_odyssey_03/`](./cosmic_odyssey_03/) | **The Seed of Aurora (Cosmic Odyssey)**: A 1-minute sci-fi odyssey tracking an ancient celestial seed through the deep void, across a kaleidoscopic nebula, into alien atmospheric re-entry, blooming into an eternal solarpunk garden of stars. | **Sci-Fi 3D WebGL & Matte Painting** | Remotion + Three.js + Blender + Gemini Visuals + Procedural Score | 60.0s | MP4 + GIF | ✅ Complete |
+| **02** | [`war_action_01/`](./war_action_01/) | **Brothers in Arms — No One Left Behind**: A combat rescue mission through artillery craters, smoke screens, suppressive tank armor, and A-10 close air support to extract a wounded brother onto a MEDEVAC Black Hawk. | **Gritty Military Action** | Gemini Visuals + Dynamic Programming + Procedural Audio + FFmpeg | 30.0s | MP4 + GIF | ✅ Complete |
+| **01** | [`nano_banana_comedy_01/`](./nano_banana_comedy_01/) | **The Misadventures of Nano Banana 2.0**: Slapstick comedy animated short following a sentient banana escaping a kitchen fruit bowl, dodging a smoothie blender, and strapping to a bottle rocket. | **Stylized Slapstick Cartoon** | Gemini Visuals + Procedural SFX + FFmpeg | 30.0s | MP4 + GIF | ✅ Complete |
 
 ---
 
-## 🌌 Project 03: The Seed of Aurora (Cosmic Odyssey)
+## 🎭 Project 04: Shivamogga Kannada Drama — "ಮಲೆನಾಡ ಹಾದಿ"
 
-> *"Before the stars could dream, a silent seed listened to the dark. Driven by starlight, it travels through ancient nebulae, descends onto a barren dying world, impacts the stone, and blossoms into an eternal garden of stars."*
+> *"ತುಂಗಾ ತೀರದ ಮುಂಜಾನೆಯಿಂದ ಜೋಗ ಜಲಪಾತದ ರೌದ್ರ ಗಾಂಭೀರ್ಯದವರೆಗೆ — ನೆನಪುಗಳು, ರಂಗಭೂಮಿ ಹಾಗೂ ಕರುಳಿನ ಬಾಂಧವ್ಯದ ಕಥೆ."*
 
 ### Visual Preview
-![Cosmic Odyssey Preview](./cosmic_odyssey_03/output/cosmic_odyssey_preview.gif)
+![Shivamogga Drama Preview](./shivamogga_kannada_drama_04/output/shivamogga_kannada_drama_preview.gif)
 
-### Key Architectural Highlights
-- **Remotion Framework**: Synchronizes 1,800 frames at 30 FPS across 5 distinct narrative acts with dynamic typography, chapter markers, timecodes, and audio alignment.
-- **Three.js WebGL Engine**: Renders real-time 3D lighting, dynamic camera paths, a rotating multifaceted crystalline celestial seed, concentric gyroscope gimbal rings, and 1,500 procedural particles (hyperspace drift, plasma re-entry trails, expanding ground shockwaves, and floating bioluminescent spores).
-- **Blender 5.0 Procedural Assets**: Generated via headless Python scripts (`blender/generate_assets.py`) to create clean GLTF/GLB models for the celestial seed core (`seed_artifact.glb`) and crystal monolith spires (`monolith_spire.glb`).
-- **Nano Banana 2 Visual Matting**: 5 master cinematic widescreen (1376x768) matte paintings providing rich atmospheric backdrops with Ken Burns pan/zoom dynamics.
-- **60-Second Master Soundtrack**: Procedural stereo 44.1 kHz orchestral score moving through 5 distinct musical movements matching each act.
+- **Style**: Photorealistic 35mm Indian Cinematic Drama with rich Malnad regional aesthetics.
+- **Key Scenes**: Tunga Bridge at dawn, heritage Thotti Mane courtyard, Rangamandira theatrical clash, Jog Falls mist cascade, sacred temple banyan reunion.
+- **Soundtrack**: Raag Bhoopali / Mohanam scale in C# with micro-tonal Bansuri flute, meditative Tanpura, Tala Roopaka Tabla (pitch-bending Bayan bass), and temple bells.
 
 ---
 
-## 🪖 Project 02: War Action — "No One Left Behind"
+## 🐾 Project 05: Cute Puppy Spotlight (Pixar 3D Animation)
 
-### Visual Preview (Continuous Cut)
-![War Action Preview](./war_action_01/output/war_action_continuous_preview.gif)
-
-### Available Video Cuts
-- **`output/war_action_continuous.mp4` (4 FPS, 120 Frames, 23 MB)**: Filtered via global Dynamic Programming to select only frames with high visual and color continuity, eliminating rapid flicker and providing a stable, cinematic narrative flow.
-- **`output/war_action_continuous_smooth.mp4` (20 FPS blended, 27 MB)**: Optical blend transitions between the 120 continuous frames for a smooth dissolve between shots.
-- **`output/war_action_hardhitting.mp4` (20 FPS, 600 Frames, 70 MB)**: The original rapid-tempo montage containing all 600 individual AI-generated images.
-
----
-
-## 🍌 Project 01: Nano Banana 2 Slapstick Comedy
+> *"A day in the life of the fluffiest golden explorer — curious bubbles, flying ears, and sweet bedtime dreams."*
 
 ### Visual Preview
-![Comedy Preview](./nano_banana_comedy_01/output/nano_banana_2_preview.gif)
+![Puppy Spotlight Preview](./cute_puppy_spotlight_05/output/cute_puppy_spotlight_preview.gif)
+
+- **Style**: Pixar / Disney 3D CGI animation with volumetric lighting, soft subsurface scattering fur, and expressive facial animation.
+- **Key Scenes**: Wicker basket yawn, rainbow soap bubble wonder, spring tulip butterfly chase, autumn leaf slide with squeaky ball, cozy fireplace sleep with teddy bear.
+- **Soundtrack**: Playful pizzicato strings (170 BPM allegro), marimba/xylophone mallet melodies, procedural puppy yelps/barks, and a warm hearth lullaby.
+
+---
+
+## 🍃 Project 06: Social Media vs Screenless Time — "Disconnect to Reconnect"
+
+> *"When the screen goes dark, the real world begins."*
+
+### Visual Preview
+![Screenless Time Preview](./social_media_screenless_06/output/social_media_screenless_preview.gif)
+
+- **Style**: Makoto Shinkai & Studio Ghibli cinematic anime art with dramatic sky gradients, radiant sunbeams, and lush hand-painted nature.
+- **Key Scenes**: Dystopian blue doomscroll gloom, tactile power-off moment of resolve, dew-kissed cedar forest awakening, tea and laughter with real friends in a wildflower meadow, twilight ocean cliffside under shooting stars.
+- **Soundtrack**: Cold square-wave glitch pings & haptic buzzes transforming abruptly at the power-off click into an emotional acoustic grand piano melody, birdsong, and ocean surf.
 
 ---
 
@@ -57,30 +64,31 @@ This repository houses multiple self-contained, high-production animation and ci
 VideoGen/
 ├── README.md
 ├── .gitignore
-├── cosmic_odyssey_03/              # Project 3: Remotion + Three.js + Blender + Nano Banana
-│   ├── README.md                   # Full 5-act narrative and tech docs
-│   ├── package.json
-│   ├── remotion.config.ts
-│   ├── tsconfig.json
-│   ├── blender/                    # Headless Blender 3D scripts & GLB models
-│   ├── nano_banana/                # Gemini Image Prompts & 5 Master matte paintings
-│   ├── audio/                      # Procedural 60.0s orchestral score
-│   ├── public/                     # Static assets for Remotion
-│   ├── src/                        # Remotion + Three.js components & scenes
-│   └── output/
-│       ├── cosmic_odyssey_1min.mp4 # 60.0s Master Video (1280x720 @ 30 FPS)
-│       └── cosmic_odyssey_preview.gif
-├── war_action_01/                  # Project 2: Hard-hitting War Action (600 frames)
+├── shivamogga_kannada_drama_04/    # Project 4: Kannada Drama (Shivamogga / Malnad)
 │   ├── README.md
-│   ├── frames/                     # 600 individual AI images
-│   ├── frames_continuous/          # 120 selected continuous frames
-│   ├── audio/
-│   ├── output/
-│   └── scripts/
-└── nano_banana_comedy_01/          # Project 1: Slapstick Comedy (600 frames)
+│   ├── scenes/                     # 5 Master 4K keyframe scenes
+│   ├── audio/                      # Procedural Indian classical score (.wav)
+│   ├── output/                     # Final 25s MP4 video + preview GIF
+│   └── scripts/                    # Audio synthesis & Ken Burns compile scripts
+├── cute_puppy_spotlight_05/        # Project 5: Cute Puppy Spotlight (Pixar 3D)
+│   ├── README.md
+│   ├── scenes/                     # 5 Master Pixar 3D keyframe scenes
+│   ├── audio/                      # Procedural pizzicato & marimba score (.wav)
+│   ├── output/                     # Final 25s MP4 video + preview GIF
+│   └── scripts/                    # Audio synthesis & Ken Burns compile scripts
+├── social_media_screenless_06/     # Project 6: Disconnect to Reconnect (Anime)
+│   ├── README.md
+│   ├── scenes/                     # 5 Master Shinkai anime scenes
+│   ├── audio/                      # Procedural neo-classical piano score (.wav)
+│   ├── output/                     # Final 25s MP4 video + preview GIF
+│   └── scripts/                    # Audio synthesis & Ken Burns compile scripts
+├── cosmic_odyssey_03/              # Project 3: Remotion + Three.js + Blender
+│   ├── README.md
+│   └── ...
+├── war_action_01/                  # Project 2: Hard-hitting War Action
+│   ├── README.md
+│   └── ...
+└── nano_banana_comedy_01/          # Project 1: Slapstick Comedy
     ├── README.md
-    ├── frames/
-    ├── audio/
-    ├── output/
-    └── scripts/
+    └── ...
 ```
